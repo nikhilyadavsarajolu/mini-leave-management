@@ -23,6 +23,14 @@ This project is a Mini Leave Management System (LMS) for a startup with 50 emplo
 - Tracking leave balances
 
 The backend is built with Spring Boot, Java, MySQL, and Swagger/OpenAPI documentation for API testing.
+
+## Tech Stack
+- **Backend**: Spring Boot, Java
+- **Database**: MySQL
+- **Documentation**: Swagger / OpenAPI
+- **Build Tool**: Maven
+
+
 ## Setup Instructions
 1. Clone the repository:
 git clone <repository-url>
@@ -66,7 +74,7 @@ http://localhost:8080/swagger-ui/index.html
 - Rejecting or approving a non-existent leave request
 ##  Api Endpoints
 Employee APIs
-1. Add Employee
+**1. Add Employee**
 POST /employee/add
 
 Request Body:
@@ -104,7 +112,7 @@ Response Body:
 }
 
 Leave APIs
-1. Apply Leave
+**1. Apply Leave**
 POST /leave/apply
 
 
@@ -173,7 +181,7 @@ Spring Boot REST API
       MySQL
 
 
-## 📌 Project Architecture
+##  Project Architecture
 
 ![Architecture Diagram](./images/HLD_architecture_diagram.png)
 
@@ -201,7 +209,7 @@ Scaling:
 - Deploy on Heroku/Render for live access
 
 
-## 📨 Submission
+##  Submission
 
 - **ZIP Contents**: Source code (`src/`), `pom.xml`, `README.md`, **HLD diagram** (`diagrams/architecture.png`), optional `docs/` with sample requests.
 - **Setup Steps**: See “Setup Instructions” above (MySQL config + run commands).
